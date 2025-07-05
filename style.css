@@ -301,20 +301,20 @@ body {
     }
 
     .notable-regular {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .about-title {
+        display: block;
         margin-top: 50px;
-        padding-left: 150px;
+        padding-left: 125px;
         font-size: 2rem;
     }
 
     .about-underline {
-        padding-left: 85px;
-        width: 50%;
+        width: 215px;
         align-self: center;
-        margin-left: 100px;
+        margin-left: 85px;
     }
 
     .intro-text {
@@ -377,6 +377,7 @@ body {
     .education-title,
     .expierince-title,
     .connect-title {
+        display: block;
         padding-left: 0;
         font-size: 2rem;
     }
@@ -406,6 +407,10 @@ body {
 
     .technical-title {
         padding-bottom: 50px;
+    }
+
+    .badge-category {
+        margin: 5px 10px;
     }
 
     .skill-icon {
