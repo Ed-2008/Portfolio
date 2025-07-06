@@ -9,6 +9,10 @@ body {
     padding: 0;
 }
 
+.about-section-m {
+    display: none;
+}
+
 .notable-regular {
     font-family: "Notable", sans-serif;
     font-weight: 400;
@@ -306,15 +310,17 @@ body {
 
     .about-title {
         display: block;
-        margin-top: 50px;
-        padding-left: 125px;
+        padding: 0;
         font-size: 2rem;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 600;
     }
 
     .about-underline {
+        display: block;
         width: 215px;
-        align-self: center;
-        margin-left: 85px;
+        margin: 0 auto 2rem auto;
     }
 
     .intro-text {
@@ -328,7 +334,7 @@ body {
     }
 
     .project-underline {
-        width: 65%;
+        width: 70%;
     }
 
     .project-card {
@@ -445,5 +451,41 @@ body {
     .navbar-brand {
         font-size: 1rem;
         font-weight: 100;
+    }
+
+    #about {
+        display: none;
+    }
+
+    /* Show mobile section */
+    .about-section-m {
+        display: block;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+
+    .about-mobile {
+        background-color: #1e1e1e;
+        color: white;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .about-mobile .card-img-top {
+        border-radius: 12px;
+        padding: 10px;
+        background-color: #333;
+    }
+
+    .about-mobile .card-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .about-mobile .card-text {
+        font-size: 1rem;
+        color: #ccc;
     }
 }
